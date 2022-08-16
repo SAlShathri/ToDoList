@@ -1,0 +1,129 @@
+
+    body{
+        background-color: #f9e9d7;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        font-size: large;
+        text-align: center;
+        align-items: center;
+        color: #373f73;
+    }
+    
+    header{
+       background-color: #F8EFE6;
+       text-align: left;
+       padding: 10px;
+    }
+    header.image{
+        width: 5%;
+        height: 5%;
+        position: fixed;
+        left: 0px;
+        top: 0px;
+    }
+
+    footer{
+       background-color: #F8EFE6;
+       text-align: center;
+       padding: 10px;
+    }
+
+    .container{
+        position: relative;
+        align-items: center;
+        text-align: center;       
+    }
+    
+    .addTask-container{
+        background-color: #F8EFE6;
+        height: auto;
+        padding: 10px;
+        margin: 30px;
+
+    }
+    .addTask-inner-container{
+        background-color: #F8EFE6;
+        height: auto;
+        padding: 10px;
+        margin-left: 40%;
+        margin-right: 40%;
+        text-align: left;
+    }  
+
+    .ToDoList-container{
+        background-color: #F8EFE6;
+        align-items: center;
+        height: auto;
+        padding: 10px;
+        margin: 30px;
+    }
+    .Tasks-container{
+        background-color: #F8EFE6;
+        height: auto;
+        padding: 10px;
+        margin-left: 30%;
+        margin-right: 30%;
+        
+    }
+
+    .completedTasks-container{
+        background-color: #F8EFE6;
+        align-items: center;
+        height: auto;
+        padding: 10px;
+        margin: 30px;
+    }
+
+    button{
+        border-radius: 5px;
+        border: none;
+        outline: none;
+        margin: 5px ;
+        width: 50px;
+        height: 25px;
+        color:#F8EFE6;
+        background-color: #373f73;
+    }
+
+    ol li {
+        height: 40px;
+        border-radius: 5px;
+        margin: 5px;
+        padding: 5px;
+        text-align: center;
+        list-style: none;
+    }
+    .high{
+        background-color: #ff6666;
+    }
+    .mediam{
+        background-color: #ffb380;
+    }
+    .low{
+        background-color: #ffdd99;
+    }
+    .checked{
+        background-color: #8cd98c
+    }
+      
+    .icon{
+        width: 5px;
+        height: 5px;
+        left: 0%;
+    }
+
+    .currentDate{
+        margin-top: 15px;
+        margin-right: 1000px;
+    }
+
+    #Deadline, #title, #category{
+        border-radius: 5px;
+        border: none;
+        outline: none;
+        margin: 5px ;
+        width: 170px;
+        height: 30px;
+        background-color: #f6e4cf;
+    }
+
+    

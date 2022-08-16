@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset = "utf-8">
+        <title>ToDoList</title>
+        <link rel="stylesheet" type="text/css" href="ToDoList.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="ToDoList.js"></script>
+    </head>
+    
+    <body>
+        <header>
+            <img src="ToDoListLogo.png" alt="To do list logo"> 
+        </header>
+        <div class="container">
+        <div class="addTask-container">
+        <h2>Add Task</h2>
+        <form name="addATask" action="#" method="post">
+            <div class="addTask-inner-container">
+            <label for="title">Task Name: </label><br>
+			<input type="text" name="title" id="title" required><br>
+            <label for="Deadline">Deadline: </label><br>
+            <input type="date" name="Deadline" id="Deadline" required>
+            <p>Choose the category:<br>
+                <select name = "category" id="category">
+                    <option>Study</option>
+                    <option>Sport</option>
+                    <option>Home</option>
+                </select></p>
+            <p>Choose the priority:<br>
+                <input type="radio" id="High" name="priority" value="High" required>
+                <label for="High">High</label><br>
+                <input type="radio" id="Mediam" name="priority" value="Mediam" required>
+                <label for="Mediam">Mediam</label><br>
+                <input type="radio" id="Low" name="priority" value="Low" required>
+                <label for="Low">Low</label></p>
+          
+        </div>
+		<button type="button" id="AddButton">Add</button>
+        <button type="reset" id="ClearButton">Clear</button>
+        </form></div>
+
+        <div class="ToDoList-container">
+            <div class = "currentDate" id="currentDate"></div>
+            <h2>To Do List</h2>
+            <div class="Tasks-container">
+               <ol id = "ToDoList">  
+               </ol>
+            </div>
+            <button type="button" id="DoneButton">Done</button>
+        </div>
+
+        <div class="completedTasks-container">
+            <h2>completed Tasks</h2>
+            <div class="Tasks-container">
+               <ol id="completedTasks">
+               </ol>
+            </div>
+        </div>
+
+
+
+        <footer>
+            <h4>&copy; Made by Sarah AlShathri <a href="mailto:s.i.alshathri@gmail.com">Contact me</a> </h4>
+        </footer>
+
+
+    
+    </div>
+
+    </body>
+</html>
